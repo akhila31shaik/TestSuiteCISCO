@@ -1,0 +1,92 @@
+{
+  "name": "TestAutomationa-1",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.16.2]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.5]",
+    "UiPath.WebAPI.Activities": "[1.13.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.10.3.0",
+  "projectVersion": "1.0.132731194",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bd95209b-f579-45f8-8582-0dd5050d173e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a6c17bad-ee6e-4f37-b0b2-acbc341e6ac1",
+        "dataVariationFilePath": ".variations\\QCxKU6KDKASdfMoa-Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "02d53c62-4db4-44d0-af00-56261cbad797",
+        "testCaseType": "TestCase",
+        "fileName": "AddLogic.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "350bda43-08c6-4359-be15-e97a9bf4d7c3",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase3.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7e143ab2-3e12-4119-b486-3af82ea7f3e3",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "641a7e32-6a6e-473f-8bcc-a2e2cdbefcfd",
+        "dataVariationFilePath": ".variations\\ZoVt4HwCuaqebriG-Data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "UIBankAPI.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
